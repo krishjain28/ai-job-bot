@@ -5,14 +5,14 @@
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "build"
       }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "dest": "https://ai-job-bot-api.onrender.com/api/$1"
     },
     {
       "src": "/(.*)",
@@ -20,6 +20,11 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "@api-url"
+    "REACT_APP_API_URL": "https://ai-job-bot-api.onrender.com"
+  },
+  "functions": {
+    "frontend/package.json": {
+      "maxDuration": 30
+    }
   }
 } 
