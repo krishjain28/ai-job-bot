@@ -1,0 +1,46 @@
+JOHN DOE
+Software Engineer
+john.doe@email.com | +1 (555) 123-4567 | linkedin.com/in/johndoe
+San Francisco, CA
+
+SUMMARY
+Experienced software engineer with 5+ years developing scalable web applications using Python, JavaScript, and cloud technologies. Passionate about building user-friendly applications and solving complex technical challenges.
+
+TECHNICAL SKILLS
+Programming Languages: Python, JavaScript, TypeScript, Java
+Frameworks & Libraries: React, Node.js, Django, Flask, FastAPI
+Databases: PostgreSQL, MongoDB, Redis
+Cloud & DevOps: AWS, Docker, Kubernetes, CI/CD
+Tools & Technologies: Git, Jenkins, Elasticsearch, Kafka
+
+EXPERIENCE
+
+Senior Software Engineer | TechCorp Inc.
+January 2022 - Present
+• Led development of microservices architecture using Python and FastAPI
+• Implemented CI/CD pipelines reducing deployment time by 60%
+• Mentored junior developers and conducted code reviews
+• Technologies: Python, FastAPI, PostgreSQL, AWS, Docker
+
+Software Developer | StartupXYZ
+March 2020 - December 2021
+• Built full-stack web applications using React and Node.js
+• Developed RESTful APIs and database schemas
+• Collaborated with cross-functional teams using Agile methodology
+• Technologies: JavaScript, React, Node.js, MongoDB
+
+Junior Developer | WebSolutions
+June 2018 - February 2020
+• Created responsive web interfaces using HTML, CSS, and JavaScript
+• Debugged and maintained existing codebase
+• Participated in daily standups and sprint planning
+• Technologies: HTML, CSS, JavaScript, jQuery
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | 2018
+
+PROJECTS
+• E-commerce Platform: Built using React, Node.js, and MongoDB
+• Task Management App: Python Django application with PostgreSQL
+• Weather API: RESTful API using FastAPI and Redis caching 

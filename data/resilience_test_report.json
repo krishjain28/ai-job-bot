@@ -1,0 +1,114 @@
+{
+  "timestamp": 1752538850.0579011,
+  "summary": {
+    "total_tests": 5,
+    "passed_tests": 3,
+    "failed_tests": 2,
+    "success_rate": 60.0
+  },
+  "results": {
+    "selector_registry": {
+      "status": "\u274c FAILED",
+      "error": "bad operand type for unary -: 'NoneType'"
+    },
+    "anti_bot_measures": {
+      "status": "\u2705 PASSED",
+      "proxies_configured": 0,
+      "browser_profiles": 3,
+      "proxy_stats": {
+        "total_proxies": 0,
+        "working_proxies": 0,
+        "failed_proxies": 0,
+        "success_rate": 0.0,
+        "avg_response_time": 0.0
+      }
+    },
+    "network_resilience": {
+      "status": "\u2705 PASSED",
+      "sites_configured": 4,
+      "context_pool_size": 5,
+      "all_metrics": {
+        "sites": {
+          "linkedin": {
+            "site_name": "linkedin",
+            "status": "healthy",
+            "response_time": 0.0,
+            "success_rate": 1.0,
+            "total_requests": 0,
+            "error_count": 0,
+            "timeout_count": 0,
+            "last_success": null,
+            "last_failure": null,
+            "config": {
+              "timeout": 45.0,
+              "max_retries": 3,
+              "progressive_timeout": true
+            }
+          },
+          "indeed": {
+            "site_name": "indeed",
+            "status": "healthy",
+            "response_time": 0.0,
+            "success_rate": 1.0,
+            "total_requests": 0,
+            "error_count": 0,
+            "timeout_count": 0,
+            "last_success": null,
+            "last_failure": null,
+            "config": {
+              "timeout": 40.0,
+              "max_retries": 3,
+              "progressive_timeout": true
+            }
+          },
+          "remoteok": {
+            "site_name": "remoteok",
+            "status": "healthy",
+            "response_time": 0.0,
+            "success_rate": 1.0,
+            "total_requests": 0,
+            "error_count": 0,
+            "timeout_count": 0,
+            "last_success": null,
+            "last_failure": null,
+            "config": {
+              "timeout": 30.0,
+              "max_retries": 2,
+              "progressive_timeout": false
+            }
+          },
+          "wellfound": {
+            "site_name": "wellfound",
+            "status": "healthy",
+            "response_time": 0.0,
+            "success_rate": 1.0,
+            "total_requests": 0,
+            "error_count": 0,
+            "timeout_count": 0,
+            "last_success": null,
+            "last_failure": null,
+            "config": {
+              "timeout": 35.0,
+              "max_retries": 3,
+              "progressive_timeout": true
+            }
+          }
+        },
+        "contexts": {
+          "active_contexts": 0,
+          "max_contexts": 5
+        }
+      }
+    },
+    "integrated_scraping": {
+      "status": "\u2705 PASSED",
+      "linkedin_selectors": 4,
+      "wellfound_selectors": 3,
+      "scrapers_initialized": 2
+    },
+    "performance_monitoring": {
+      "status": "\u274c FAILED",
+      "error": "bad operand type for unary -: 'NoneType'"
+    }
+  }
+}
